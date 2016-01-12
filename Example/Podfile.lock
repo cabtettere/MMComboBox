@@ -1,0 +1,14 @@
+PODS:
+  - MMComboBox (0.1.0)
+
+DEPENDENCIES:
+  - MMComboBox (from `../`)
+
+EXTERNAL SOURCES:
+  MMComboBox:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MMComboBox: 0df9859266ac95daba912ea373196c3bada52051
+
+COCOAPODS: 0.39.0

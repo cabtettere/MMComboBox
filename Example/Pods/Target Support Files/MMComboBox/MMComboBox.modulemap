@@ -1,0 +1,6 @@
+framework module MMComboBox {
+  umbrella header "MMComboBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

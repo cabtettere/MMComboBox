@@ -1,0 +1,25 @@
+{
+  "name": "MMComboBox",
+  "version": "0.1.0",
+  "summary": "A simple ComboBox implementation for iOS",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MMComboBox",
+  "license": "MIT",
+  "authors": {
+    "Marco Mardegan": "mardegan.m@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/cabtettere/MMComboBox.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "MMComboBox": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

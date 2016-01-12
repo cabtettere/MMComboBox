@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		372C2B96152B0FE9E4423AFFA698BE76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		47EDF09B1349DBC2F17AFE3F83D891E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6D8FC9802040890C22BE63A550EA0631 /* MMComboBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97529F427F29AAF14C0814CB67622CC2 /* MMComboBox-dummy.m */; };
+		6DD4AD83809406C8C5AF2551C62A37ED /* MMComboBox.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB6869A6CEBFAD0B3D121E38D8A0A83B /* MMComboBox.bundle */; };
+		7823E406AE6A1A7684552D77F8880ADD /* MMComboBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 131D548C8BF449FCE2C0B58ED6E6E86C /* MMComboBox.m */; };
+		8B532BC00B9757FC259760C4E6CECADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		95A2B63346AC3CCF020E7E93A2620482 /* MMComboBox.h in Headers */ = {isa = PBXBuildFile; fileRef = B19996BBB6BA947794FA8F24C31A0281 /* MMComboBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9826B7E213E918578FFE3BD7A4AFE09E /* MMComboBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBA7FB5E9BF18F71F8B6B1D0065C635 /* MMComboBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D1312016772D383901D99EFA50299BF /* Pods-MMComboBox_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5ADE5265BCC748905DF8951C171327 /* Pods-MMComboBox_Tests-dummy.m */; };
+		B7060BEDF55A474CEDF7B28A09EA15B0 /* Pods-MMComboBox_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8438A35702AC750DEA90C0F55E07C5 /* Pods-MMComboBox_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2EDA6CC5AD7E6A0C8C1E708984068B0 /* Pods-MMComboBox_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C75CCC17CDD6FE51CEEAFCDC2EC5BD3E /* Pods-MMComboBox_Example-dummy.m */; };
+		FDE325890A188970D96A98EAD66EA1D3 /* Pods-MMComboBox_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71D4923F8B21A53733B2441D698DFC54 /* Pods-MMComboBox_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F3F5912604275910A4D9940B7793990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF547C9FC7692725483BD05A0393F29;
+			remoteInfo = MMComboBox;
+		};
+		37E1BC36D4B9A235E25C336F1303F8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AF547C9FC7692725483BD05A0393F29;
+			remoteInfo = MMComboBox;
+		};
+		6C9EF78F9EB72D9D857CE1804E1D97E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB97F45BCE963593C3683600BBA15275;
+			remoteInfo = "MMComboBox-MMComboBox";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0182FC996D4947F52EDC3065FF1C9FB8 /* Pods-MMComboBox_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMComboBox_Example-frameworks.sh"; sourceTree = "<group>"; };
+		04BF0DACA7DCCA1616155F11D953D73F /* Pods-MMComboBox_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMComboBox_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		06DABF8507A9AE406EF5B3885F087AED /* Pods-MMComboBox_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMComboBox_Tests.modulemap"; sourceTree = "<group>"; };
+		131D548C8BF449FCE2C0B58ED6E6E86C /* MMComboBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMComboBox.m; sourceTree = "<group>"; };
+		1A6A18F5100CFD5B0695D4E5E87055A9 /* Pods-MMComboBox_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMComboBox_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29D3FC0E30FA7B7BE822D80FC86AB236 /* MMComboBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMComboBox.xcconfig; sourceTree = "<group>"; };
+		374316BF122E87DDCEA6EEDC321B92BE /* MMComboBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMComboBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B800CE6C5C6ED60AED75C199AB0A102 /* Pods-MMComboBox_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMComboBox_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		71D4923F8B21A53733B2441D698DFC54 /* Pods-MMComboBox_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMComboBox_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7748E5F238EB138ECC40FC76464CFC80 /* Pods-MMComboBox_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMComboBox_Example-resources.sh"; sourceTree = "<group>"; };
+		806B73EB21D171010318C009B3E17FAA /* Pods-MMComboBox_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMComboBox_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8629CA1AAF6965502BCDEC0735A67B32 /* Pods-MMComboBox_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMComboBox_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EA781613B6337270E651737F9A5A0B3 /* Pods_MMComboBox_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMComboBox_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9045E5C6A72B112C91C751B45A0D383D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922B20F9D96FF78ED8DBC29C02DE6A07 /* Pods-MMComboBox_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMComboBox_Example.release.xcconfig"; sourceTree = "<group>"; };
+		96AE108C8047AEC4BCD0CB11F0D241B0 /* MMComboBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMComboBox-prefix.pch"; sourceTree = "<group>"; };
+		97529F427F29AAF14C0814CB67622CC2 /* MMComboBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMComboBox-dummy.m"; sourceTree = "<group>"; };
+		A34584F0A5A9EE87E2E8EB142425DF20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7660D59642D83D80B4AA74B6B9C44D5 /* Pods_MMComboBox_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMComboBox_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19996BBB6BA947794FA8F24C31A0281 /* MMComboBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMComboBox.h; sourceTree = "<group>"; };
+		B73C899113EF09BF8E673392C4499C0F /* Pods-MMComboBox_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMComboBox_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD5EAC6FE60200F3CB8143D64C7158E0 /* Pods-MMComboBox_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMComboBox_Tests-resources.sh"; sourceTree = "<group>"; };
+		BEBA7FB5E9BF18F71F8B6B1D0065C635 /* MMComboBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMComboBox-umbrella.h"; sourceTree = "<group>"; };
+		BF8F4ACAB62FFB0C56CB8124FF22D092 /* Pods-MMComboBox_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMComboBox_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C2A566DAD1949BD01753923D2D50150C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75CCC17CDD6FE51CEEAFCDC2EC5BD3E /* Pods-MMComboBox_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMComboBox_Example-dummy.m"; sourceTree = "<group>"; };
+		C7C25DFE0BABEB7705ADFC0AA233F324 /* Pods-MMComboBox_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MMComboBox_Example.modulemap"; sourceTree = "<group>"; };
+		CB6869A6CEBFAD0B3D121E38D8A0A83B /* MMComboBox.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMComboBox.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8438A35702AC750DEA90C0F55E07C5 /* Pods-MMComboBox_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMComboBox_Example-umbrella.h"; sourceTree = "<group>"; };
+		CE5ADE5265BCC748905DF8951C171327 /* Pods-MMComboBox_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMComboBox_Tests-dummy.m"; sourceTree = "<group>"; };
+		D1180A0F8B05009E85F04931E5C333B4 /* MMComboBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MMComboBox.modulemap; sourceTree = "<group>"; };
+		D9FB46818A8A89E8A6A94262B48954BD /* Pods-MMComboBox_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMComboBox_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AEC043404230DEFDF4E0069E2AE9822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B532BC00B9757FC259760C4E6CECADF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D333A990CF62B4D95DCE3064E44AB4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372C2B96152B0FE9E4423AFFA698BE76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBA36C3B82D19C4CE349F62A433C3D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47EDF09B1349DBC2F17AFE3F83D891E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CAC27AC27591CAA259290FC61F0447E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094E90518B27A5F714A24696127FCD18 /* Pods-MMComboBox_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A34584F0A5A9EE87E2E8EB142425DF20 /* Info.plist */,
+				C7C25DFE0BABEB7705ADFC0AA233F324 /* Pods-MMComboBox_Example.modulemap */,
+				1A6A18F5100CFD5B0695D4E5E87055A9 /* Pods-MMComboBox_Example-acknowledgements.markdown */,
+				BF8F4ACAB62FFB0C56CB8124FF22D092 /* Pods-MMComboBox_Example-acknowledgements.plist */,
+				C75CCC17CDD6FE51CEEAFCDC2EC5BD3E /* Pods-MMComboBox_Example-dummy.m */,
+				0182FC996D4947F52EDC3065FF1C9FB8 /* Pods-MMComboBox_Example-frameworks.sh */,
+				7748E5F238EB138ECC40FC76464CFC80 /* Pods-MMComboBox_Example-resources.sh */,
+				CD8438A35702AC750DEA90C0F55E07C5 /* Pods-MMComboBox_Example-umbrella.h */,
+				04BF0DACA7DCCA1616155F11D953D73F /* Pods-MMComboBox_Example.debug.xcconfig */,
+				922B20F9D96FF78ED8DBC29C02DE6A07 /* Pods-MMComboBox_Example.release.xcconfig */,
+			);
+			name = "Pods-MMComboBox_Example";
+			path = "Target Support Files/Pods-MMComboBox_Example";
+			sourceTree = "<group>";
+		};
+		106D00BF17FDC165A1A3776699AE071E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				094E90518B27A5F714A24696127FCD18 /* Pods-MMComboBox_Example */,
+				7C8E0C1ABAF58CF172811C1AF4FBF3F4 /* Pods-MMComboBox_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5989E62E5254EAE8CCFE2255F4B42416 /* MMComboBox */ = {
+			isa = PBXGroup;
+			children = (
+				DA699D063486BC4607FB96DD994F0D67 /* Pod */,
+				C690F3EA023A7168F9D0ED82BCE0C99A /* Support Files */,
+			);
+			name = MMComboBox;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C8E0C1ABAF58CF172811C1AF4FBF3F4 /* Pods-MMComboBox_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9045E5C6A72B112C91C751B45A0D383D /* Info.plist */,
+				06DABF8507A9AE406EF5B3885F087AED /* Pods-MMComboBox_Tests.modulemap */,
+				8629CA1AAF6965502BCDEC0735A67B32 /* Pods-MMComboBox_Tests-acknowledgements.markdown */,
+				806B73EB21D171010318C009B3E17FAA /* Pods-MMComboBox_Tests-acknowledgements.plist */,
+				CE5ADE5265BCC748905DF8951C171327 /* Pods-MMComboBox_Tests-dummy.m */,
+				D9FB46818A8A89E8A6A94262B48954BD /* Pods-MMComboBox_Tests-frameworks.sh */,
+				BD5EAC6FE60200F3CB8143D64C7158E0 /* Pods-MMComboBox_Tests-resources.sh */,
+				71D4923F8B21A53733B2441D698DFC54 /* Pods-MMComboBox_Tests-umbrella.h */,
+				4B800CE6C5C6ED60AED75C199AB0A102 /* Pods-MMComboBox_Tests.debug.xcconfig */,
+				B73C899113EF09BF8E673392C4499C0F /* Pods-MMComboBox_Tests.release.xcconfig */,
+			);
+			name = "Pods-MMComboBox_Tests";
+			path = "Target Support Files/Pods-MMComboBox_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B2BD93DAD3DB8C15DB93AA03F8ADDE02 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C6362720C59C8D7758889A1B79434E15 /* Products */,
+				106D00BF17FDC165A1A3776699AE071E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BD93DAD3DB8C15DB93AA03F8ADDE02 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5989E62E5254EAE8CCFE2255F4B42416 /* MMComboBox */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C03CB54B221590293FB4E5E81916B5A9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B19996BBB6BA947794FA8F24C31A0281 /* MMComboBox.h */,
+				131D548C8BF449FCE2C0B58ED6E6E86C /* MMComboBox.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C6362720C59C8D7758889A1B79434E15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6869A6CEBFAD0B3D121E38D8A0A83B /* MMComboBox.bundle */,
+				374316BF122E87DDCEA6EEDC321B92BE /* MMComboBox.framework */,
+				A7660D59642D83D80B4AA74B6B9C44D5 /* Pods_MMComboBox_Example.framework */,
+				8EA781613B6337270E651737F9A5A0B3 /* Pods_MMComboBox_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C690F3EA023A7168F9D0ED82BCE0C99A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2A566DAD1949BD01753923D2D50150C /* Info.plist */,
+				D1180A0F8B05009E85F04931E5C333B4 /* MMComboBox.modulemap */,
+				29D3FC0E30FA7B7BE822D80FC86AB236 /* MMComboBox.xcconfig */,
+				97529F427F29AAF14C0814CB67622CC2 /* MMComboBox-dummy.m */,
+				96AE108C8047AEC4BCD0CB11F0D241B0 /* MMComboBox-prefix.pch */,
+				BEBA7FB5E9BF18F71F8B6B1D0065C635 /* MMComboBox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMComboBox";
+			sourceTree = "<group>";
+		};
+		DA699D063486BC4607FB96DD994F0D67 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C03CB54B221590293FB4E5E81916B5A9 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58A28AC3978CB68E7AFFEA48B773DE7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9826B7E213E918578FFE3BD7A4AFE09E /* MMComboBox-umbrella.h in Headers */,
+				95A2B63346AC3CCF020E7E93A2620482 /* MMComboBox.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B47EF6345D8B93A2B39A66E83DE040AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7060BEDF55A474CEDF7B28A09EA15B0 /* Pods-MMComboBox_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F235A4ABC8488B56CE18636785AB0E89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE325890A188970D96A98EAD66EA1D3 /* Pods-MMComboBox_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AF547C9FC7692725483BD05A0393F29 /* MMComboBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA600D2061F15F824835DD9145217EC /* Build configuration list for PBXNativeTarget "MMComboBox" */;
+			buildPhases = (
+				0CE6CC8763FE05A04E0484EED88652D8 /* Sources */,
+				7CBA36C3B82D19C4CE349F62A433C3D8 /* Frameworks */,
+				807627651476BCA85B0D368CB5AD6F99 /* Resources */,
+				58A28AC3978CB68E7AFFEA48B773DE7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97056F2FD8A7F9B253B86E9E8C1CED03 /* PBXTargetDependency */,
+			);
+			name = MMComboBox;
+			productName = MMComboBox;
+			productReference = 374316BF122E87DDCEA6EEDC321B92BE /* MMComboBox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED25658208D39AEB071333714D27C8A7 /* Pods-MMComboBox_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40F9FE550D388624017B8A6F6AEDF347 /* Build configuration list for PBXNativeTarget "Pods-MMComboBox_Example" */;
+			buildPhases = (
+				793FB9800F5873FE65F20F3BF45D8642 /* Sources */,
+				5D333A990CF62B4D95DCE3064E44AB4C /* Frameworks */,
+				B47EF6345D8B93A2B39A66E83DE040AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C62B27FD9AAB8A48D242C68B2E375BA /* PBXTargetDependency */,
+			);
+			name = "Pods-MMComboBox_Example";
+			productName = "Pods-MMComboBox_Example";
+			productReference = A7660D59642D83D80B4AA74B6B9C44D5 /* Pods_MMComboBox_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F0839DE84FF47F59481BD498171408E7 /* Pods-MMComboBox_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4D20A2E71F41A12FBE7F05858AE217 /* Build configuration list for PBXNativeTarget "Pods-MMComboBox_Tests" */;
+			buildPhases = (
+				9535C2926D45DD08E3CC90D5EF2CA6AD /* Sources */,
+				3AEC043404230DEFDF4E0069E2AE9822 /* Frameworks */,
+				F235A4ABC8488B56CE18636785AB0E89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4638D1BCACAADB70878FF20FF563B7B /* PBXTargetDependency */,
+			);
+			name = "Pods-MMComboBox_Tests";
+			productName = "Pods-MMComboBox_Tests";
+			productReference = 8EA781613B6337270E651737F9A5A0B3 /* Pods_MMComboBox_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB97F45BCE963593C3683600BBA15275 /* MMComboBox-MMComboBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BF62921D780FC62828F33E09D9F65C3 /* Build configuration list for PBXNativeTarget "MMComboBox-MMComboBox" */;
+			buildPhases = (
+				3E3EB6E380D1D501368E0C8FB95260BA /* Sources */,
+				9CAC27AC27591CAA259290FC61F0447E /* Frameworks */,
+				E1E0FB7843D3AC2E977ED097E638C9C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MMComboBox-MMComboBox";
+			productName = "MMComboBox-MMComboBox";
+			productReference = CB6869A6CEBFAD0B3D121E38D8A0A83B /* MMComboBox.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = C6362720C59C8D7758889A1B79434E15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AF547C9FC7692725483BD05A0393F29 /* MMComboBox */,
+				FB97F45BCE963593C3683600BBA15275 /* MMComboBox-MMComboBox */,
+				ED25658208D39AEB071333714D27C8A7 /* Pods-MMComboBox_Example */,
+				F0839DE84FF47F59481BD498171408E7 /* Pods-MMComboBox_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		807627651476BCA85B0D368CB5AD6F99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DD4AD83809406C8C5AF2551C62A37ED /* MMComboBox.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E0FB7843D3AC2E977ED097E638C9C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CE6CC8763FE05A04E0484EED88652D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D8FC9802040890C22BE63A550EA0631 /* MMComboBox-dummy.m in Sources */,
+				7823E406AE6A1A7684552D77F8880ADD /* MMComboBox.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E3EB6E380D1D501368E0C8FB95260BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793FB9800F5873FE65F20F3BF45D8642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EDA6CC5AD7E6A0C8C1E708984068B0 /* Pods-MMComboBox_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9535C2926D45DD08E3CC90D5EF2CA6AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1312016772D383901D99EFA50299BF /* Pods-MMComboBox_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C62B27FD9AAB8A48D242C68B2E375BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMComboBox;
+			target = 4AF547C9FC7692725483BD05A0393F29 /* MMComboBox */;
+			targetProxy = 0F3F5912604275910A4D9940B7793990 /* PBXContainerItemProxy */;
+		};
+		97056F2FD8A7F9B253B86E9E8C1CED03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMComboBox-MMComboBox";
+			target = FB97F45BCE963593C3683600BBA15275 /* MMComboBox-MMComboBox */;
+			targetProxy = 6C9EF78F9EB72D9D857CE1804E1D97E0 /* PBXContainerItemProxy */;
+		};
+		C4638D1BCACAADB70878FF20FF563B7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMComboBox;
+			target = 4AF547C9FC7692725483BD05A0393F29 /* MMComboBox */;
+			targetProxy = 37E1BC36D4B9A235E25C336F1303F8F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0381D9737F5C290128A547B15C114321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04BF0DACA7DCCA1616155F11D953D73F /* Pods-MMComboBox_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMComboBox_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMComboBox_Example/Pods-MMComboBox_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MMComboBox_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		18EBC49A93AF694F8D375F0FC3B36B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D3FC0E30FA7B7BE822D80FC86AB236 /* MMComboBox.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MMComboBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3CC34AA6072B3B77BE072ACD357638C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D3FC0E30FA7B7BE822D80FC86AB236 /* MMComboBox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMComboBox/MMComboBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMComboBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMComboBox/MMComboBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MMComboBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6A0B7B1171C82AA2A41D390CCEA8EFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B800CE6C5C6ED60AED75C199AB0A102 /* Pods-MMComboBox_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMComboBox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMComboBox_Tests/Pods-MMComboBox_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MMComboBox_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7ED36EED9036476B28F7DF3D21A7F63B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D3FC0E30FA7B7BE822D80FC86AB236 /* MMComboBox.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMComboBox/MMComboBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMComboBox/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMComboBox/MMComboBox.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MMComboBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87845341D600A09D50DD4BB3AEE52D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 922B20F9D96FF78ED8DBC29C02DE6A07 /* Pods-MMComboBox_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMComboBox_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMComboBox_Example/Pods-MMComboBox_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MMComboBox_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A9A119E21BF6417B64CCF633058B4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73C899113EF09BF8E673392C4499C0F /* Pods-MMComboBox_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MMComboBox_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMComboBox_Tests/Pods-MMComboBox_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_MMComboBox_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E164D62257D944937513430D4127FAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D3FC0E30FA7B7BE822D80FC86AB236 /* MMComboBox.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MMComboBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40F9FE550D388624017B8A6F6AEDF347 /* Build configuration list for PBXNativeTarget "Pods-MMComboBox_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0381D9737F5C290128A547B15C114321 /* Debug */,
+				87845341D600A09D50DD4BB3AEE52D16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BF62921D780FC62828F33E09D9F65C3 /* Build configuration list for PBXNativeTarget "MMComboBox-MMComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EBC49A93AF694F8D375F0FC3B36B8B /* Debug */,
+				9E164D62257D944937513430D4127FAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA600D2061F15F824835DD9145217EC /* Build configuration list for PBXNativeTarget "MMComboBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7ED36EED9036476B28F7DF3D21A7F63B /* Debug */,
+				3CC34AA6072B3B77BE072ACD357638C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE4D20A2E71F41A12FBE7F05858AE217 /* Build configuration list for PBXNativeTarget "Pods-MMComboBox_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0B7B1171C82AA2A41D390CCEA8EFD3 /* Debug */,
+				9A9A119E21BF6417B64CCF633058B4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
