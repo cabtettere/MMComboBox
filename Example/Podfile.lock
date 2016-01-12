@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  MMComboBox: 0df9859266ac95daba912ea373196c3bada52051
+  MMComboBox: b64ecce235a0450900ced5a956a120eaef3fa8c4
 
 COCOAPODS: 0.39.0

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7738E65A6E79E2F558783C7A'
+               BlueprintIdentifier = 'B97B7807FFC0E6265C7736AC'
                BlueprintName = 'MMComboBox'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'MMComboBox.framework'>

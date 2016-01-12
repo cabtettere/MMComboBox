@@ -39,7 +39,7 @@
 }
 
 - (IBAction)show:(id)sender {
-    [self.comboBox toogle];
+    [self.comboBox open];
 }
 
 -(NSUInteger)numberOfElementInComboBox:(MMComboBox *)comboBox {

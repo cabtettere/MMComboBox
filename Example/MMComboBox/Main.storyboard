@@ -31,8 +31,11 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MQv-EO-jhL" customClass="MMComboBox">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MQv-EO-jhL" customClass="MMComboBox">
                                 <rect key="frame" x="20" y="50" width="560" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="250" id="6cO-zb-uri"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>

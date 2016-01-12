@@ -63,6 +63,10 @@
 
 -(void)open {
     
+    if (_isOpen) {
+        return;
+    }
+    
     for (UIView *child in self.subviews) {
         [child removeFromSuperview];
     }
@@ -117,6 +121,9 @@
 }
 
 -(void)close {
+    if (!_isOpen) {
+        return;
+    }
     heightConstraint.constant = 0;
     [UIView animateWithDuration:self.closeAnimationDuration animations:^{
         [self.superview layoutIfNeeded];
