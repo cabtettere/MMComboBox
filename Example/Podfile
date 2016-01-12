@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MMComboBox_Example', :exclusive => true do
+  pod "MMComboBox", :path => "../"
+end
+
+target 'MMComboBox_Tests', :exclusive => true do
+  pod "MMComboBox", :path => "../"
+
+  
+end
