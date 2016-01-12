@@ -22,7 +22,7 @@ pod "MMComboBox"
 
 ## Author
 
-Marco Mardegan, marco.mardegan@rawfish.it
+Marco Mardegan, mardegan.m@gmail.com
 
 ## License
 
