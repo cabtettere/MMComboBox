@@ -5,11 +5,22 @@
 [![License](https://img.shields.io/cocoapods/l/MMComboBox.svg?style=flat)](http://cocoapods.org/pods/MMComboBox)
 [![Platform](https://img.shields.io/cocoapods/p/MMComboBox.svg?style=flat)](http://cocoapods.org/pods/MMComboBox)
 
+## Description
+
+A classic combobox with editabile open and close animation time, element gap, elements insets.
+The element view can ben any UIView subclass.
+
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+1. Insert ad UIView in your storyboard and change class to MMComboBox.
+2. Add an height constraint with low priority
+3. Implement MMComboBoxDatasource protocol
+4. Call '[_combobox open]' to show the combobox
+5. Implement MMComboBoxDelegate protocol to intercept element selection event
 
 ## Requirements
+
+Use of ARC and auto-layout.
 
 ## Installation
 
