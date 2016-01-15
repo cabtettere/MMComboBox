@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/MMComboBox.svg?style=flat)](http://cocoapods.org/pods/MMComboBox)
 [![Platform](https://img.shields.io/cocoapods/p/MMComboBox.svg?style=flat)](http://cocoapods.org/pods/MMComboBox)
 
+![Open combobox](/screens/screen0.png?raw=true "Open combobox")
+
 ## Description
 
 A classic combobox with editabile open and close animation time, element gap, elements insets.
