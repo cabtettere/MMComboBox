@@ -17,5 +17,14 @@
 @property (weak, nonatomic) IBOutlet MMComboBox *comboBox;
 - (IBAction)show:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UISlider *sldElementCount;
+@property (weak, nonatomic) IBOutlet UISlider *sldElementHeight;
+@property (weak, nonatomic) IBOutlet UISlider *sldEdgeInsets;
+@property (weak, nonatomic) IBOutlet UISlider *sldElementGap;
+- (IBAction)valueChanged:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UILabel *lblElementCount;
+@property (weak, nonatomic) IBOutlet UILabel *lblElementHeight;
+@property (weak, nonatomic) IBOutlet UILabel *lblEdgeInsets;
+@property (weak, nonatomic) IBOutlet UILabel *lblElementGap;
 @end
