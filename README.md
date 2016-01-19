@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/MMComboBox.svg?style=flat)](http://cocoapods.org/pods/MMComboBox)
 [![Platform](https://img.shields.io/cocoapods/p/MMComboBox.svg?style=flat)](http://cocoapods.org/pods/MMComboBox)
 
-![Open combobox](/screens/screen0.png?raw=true "Open combobox")
+![Open combobox](/screens/demo.gif?raw=true "Open combobox")
 
 ## Description
 

@@ -24,14 +24,16 @@
     self.comboBox.delegate = self;
 
     self.sldElementCount.value = 10;
-    self.sldElementHeight.value = 20;
-    self.sldEdgeInsets.value = 8;
-    self.sldElementGap.value = 8;
+    self.sldElementHeight.value = 30;
+    self.sldEdgeInsets.value = 0;
+    self.sldElementGap.value = 0;
+    self.sldEnterAnimation.value = 300;
     
     [self valueChanged:self.sldElementCount];
     [self valueChanged:self.sldElementHeight];
     [self valueChanged:self.sldEdgeInsets];
     [self valueChanged:self.sldElementGap];
+    [self valueChanged:self.sldEnterAnimation];
     
     self.comboBox.openAnimationDuration = 0.25f;
     self.comboBox.closeAnimationDuration = 0.25f;
@@ -48,6 +50,8 @@
 - (IBAction)show:(id)sender {
     self.comboBox.edgeInsets = UIEdgeInsetsMake(self.sldEdgeInsets.value, self.sldEdgeInsets.value, self.sldEdgeInsets.value, self.sldEdgeInsets.value);
     self.comboBox.elementGap = self.sldElementGap.value;
+    self.comboBox.openAnimationDuration = self.sldEnterAnimation.value/1000;
+    self.comboBox.closeAnimationDuration = self.sldEnterAnimation.value/1000;
     
     [self.comboBox open];
 }
@@ -60,7 +64,7 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, self.sldElementHeight.value)];
     label.text = [NSString stringWithFormat:@"Option %lu",(unsigned long)index];
     label.textAlignment = NSTextAlignmentCenter;
-    label.backgroundColor = [UIColor cyanColor];
+    label.backgroundColor = [UIColor colorWithRed:drand48() green:drand48() blue:drand48() alpha:1];
     return label;
 }
 
@@ -90,6 +94,9 @@
         
     }else if (sender == self.sldElementGap){
         self.lblElementGap.text = [NSString stringWithFormat:@"%.0f",self.sldElementGap.value];
+        
+    }else if (sender == self.sldEnterAnimation){
+        self.lblAnimationDuration.text = [NSString stringWithFormat:@"%.0f",self.sldEnterAnimation.value];
         
     }
     

@@ -21,10 +21,14 @@
 @property (weak, nonatomic) IBOutlet UISlider *sldElementHeight;
 @property (weak, nonatomic) IBOutlet UISlider *sldEdgeInsets;
 @property (weak, nonatomic) IBOutlet UISlider *sldElementGap;
+@property (weak, nonatomic) IBOutlet UISlider *sldEnterAnimation;
+
 - (IBAction)valueChanged:(id)sender;
+
 
 @property (weak, nonatomic) IBOutlet UILabel *lblElementCount;
 @property (weak, nonatomic) IBOutlet UILabel *lblElementHeight;
 @property (weak, nonatomic) IBOutlet UILabel *lblEdgeInsets;
 @property (weak, nonatomic) IBOutlet UILabel *lblElementGap;
+@property (weak, nonatomic) IBOutlet UILabel *lblAnimationDuration;
 @end
